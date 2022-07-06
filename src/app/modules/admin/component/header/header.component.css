@@ -1,0 +1,56 @@
+.row {
+	margin: 0;
+}
+.dashboard-top-nav {
+	padding: 5px 45px;
+	background: #6C2DB9;
+	color: #fff;
+	position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.dashboard-top-nav .logo h2 {
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin: 4px 0 15px;
+	line-height: 1;
+}
+.dashboard-top-nav .logo h5 i {
+	margin-right: 5px;
+}
+.dashboard-top-nav  .notification-area .user img {
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.dashboard-top-nav .notification-area {
+	text-align: right;
+	padding-top: 10px;
+}
+.dashboard-top-nav  .notification-area .user {
+	font-size: 12px;
+	font-weight: 700;
+}
+.dashboard-top-nav  .notification-area .user .caret {
+	margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .dashboard-top-nav {
+		padding: 0 15px;
+	}
+	.notification-list {
+		left: 0;
+		right: auto;
+	}
+	.dashboard-top-nav .notification-area {
+		text-align: center;
+		margin: 20px 0;
+	}
+	.top-search {
+		margin-top: 20px;
+	}
+	.dashboard-top-nav .logo h5 {
+		text-align: center;
+	}
+}
